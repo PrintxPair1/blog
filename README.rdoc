@@ -1,5 +1,7 @@
 make sure u have ruby installed, mmmkaay
 
 bundle
+
 rake db:migrate
+
 rails s
