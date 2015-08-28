@@ -5,3 +5,11 @@ bundle
 rake db:migrate
 
 rails s
+
+
+
+rails g migration AddUnageToPost user:belongs_to
+
+rails g scaffold Image mime_type filename data:binary 
+rails g scaffold Image post:references
+belongs_to :post

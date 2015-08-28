@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :images, except: [:new, :edit]
   resources :posts, except: [:new, :edit]
   root 'posts#index'
 
