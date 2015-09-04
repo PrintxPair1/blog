@@ -5,5 +5,6 @@ gem "activerecord"
 gem 'sqlite3'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'active_model_serializers'
+gem 'zxing'
 #gem 'paperclip'
 #//gem 'paperclip-imgur'
