@@ -33,6 +33,7 @@ GEM
     builder (3.2.2)
     erubis (2.7.0)
     i18n (0.7.0)
+    jruby-jars (9.0.1.0)
     json (1.8.3)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
@@ -66,8 +67,11 @@ GEM
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    zxing (0.4.0)
+      jruby-jars
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
@@ -76,3 +80,4 @@ DEPENDENCIES
   rack-cors
   rails-api
   sqlite3
+  zxing

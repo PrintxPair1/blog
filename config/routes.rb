@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :posts, except: [:new, :edit]
+  resources :images
+  resources :posts
   root 'posts#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
